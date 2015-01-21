@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>defer ${1:args...}$0</string>
+	<key>name</key>
+	<string>defer ...</string>
+	<key>scope</key>
+	<string>source.coffee.iced</string>
+	<key>tabTrigger</key>
+	<string>de</string>
+	<key>uuid</key>
+	<string>CC37EBC8-46DB-4D2F-9353-1104D1209982</string>
+</dict>
+</plist>

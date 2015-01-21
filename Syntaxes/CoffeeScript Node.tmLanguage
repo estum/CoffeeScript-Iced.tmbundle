@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>coffee</string>
+		<string>Cakefile</string>
+	</array>
+	<key>keyEquivalent</key>
+	<string>^~C</string>
+	<key>name</key>
+	<string>CoffeeScript Node</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.type.module.coffee.node</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.separator.key-value.coffee.node</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.control.require.coffee.node</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(?x)
+			([^()\s,]+)
+			\s+(=)\s+
+      (require)
+    </string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?x)
+        \b(
+          global
+          | process
+          | console
+          | module
+          | exports
+        )\b</string>
+			<key>name</key>
+			<string>entity.name.type.global.object.coffee.node</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>((?&lt;=module\.)(exports|require))\b</string>
+			<key>name</key>
+			<string>support.function.module.coffee.node</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>source.coffee</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.coffee.node</string>
+	<key>uuid</key>
+	<string>21FB74D9-D88E-4D66-8849-203E4A25F129</string>
+</dict>
+</plist>

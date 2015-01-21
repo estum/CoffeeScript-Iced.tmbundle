@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>coffee.iced</string>
+		<string>iced</string>
+	</array>
+	<key>keyEquivalent</key>
+	<string>^~C</string>
+	<key>name</key>
+	<string>IcedCoffeeScript</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>\b(await|defer)\b</string>
+			<key>name</key>
+			<string>keyword.control.coffee.iced</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>source.coffee</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.coffee.iced</string>
+	<key>uuid</key>
+	<string>13C6E3FF-2724-4161-AD1B-E94767BDEE42</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactName</key>
+	<string>Tōnis Simo</string>
+	<key>description</key>
+	<string>Snippets for CoffeeScript with Node.js and IcedCoffeeScript</string>
+	<key>name</key>
+	<string>CoffeeScript Iced</string>
+	<key>uuid</key>
+	<string>8C42435A-C3B8-41FB-A78A-F76608E48BB0</string>
+</dict>
+</plist>
